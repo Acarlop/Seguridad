@@ -32,3 +32,27 @@ Observamos que hay una vulnerabilidad conocida como "eternalblue."
 7. Después de que el exploit se complete con éxito, podemos verificar que estamos dentro del sistema de directorios de la máquina Windows utilizando el comando `pwd`.
 
 ![imagen4](./images/Screenshot_6.png)
+
+Para la parte de *Linux* mostraremos en 1º lugar una vulnerabilidad por la red.
+
+1. Si entramos en un navegador y buscamos la ip de la máquina victima podemos ver que de normal tiene un listado de directorios que revela información sobre el servicio de base de datos, la máquina y el puerto usado, además de dejar opción a poder descargar cualquier archivo del servidor sin logearte.
+
+![imagen5](./images/Screenshot_7.png)
+
+2. Dentro de la terminal de metasploit hemos buscado algún exploit de ssh.
+
+![imagen6](./images/Screenshot_7.1.png)
+
+3. Para precisar más la busqueda hemos buscado alguno que tuviera que ver con las credenciales de inicio de sesión:
+
+![imagen7](./images/Screenshot_7.2.png)
+
+4. El exploit ssh_login del modulo scanner funciona leyendo un fichero de texto con los nombre de los usuarios y otro fichero que almacena posibles contraseñas (Son obligatorios para la ejecución del escaner). Ademas de colocar en el RHOSTS la ip de nuestra victima.
+
+![imagen8](./images/Screenshot_8.png)
+
+![imagen9](./images/Screenshot_8.1.png)
+
+5. Podemos observar como nos muestra por pantalla el usuario y la contraseña de dicho usuario.
+
+![imagen10](./images/Screenshot_8.2.png)
