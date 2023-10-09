@@ -1,4 +1,6 @@
 # Seguridad
+<h2>WINDOWS</h2>
+<h3>ETERNALBLUE</h3>
 
 Después de instalar la máquina de Kali y la máquina de Windows que hemos creado con Vagrant, seguimos estos pasos:
 
