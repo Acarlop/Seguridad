@@ -33,6 +33,45 @@ Observamos que hay una vulnerabilidad conocida como "eternalblue."
 
 ![imagen4](./images/Screenshot_6.png)
 
+<h3>GLASSFISH</h3>
+
+
+Lo primero que hemos de hacer es crear dentro del escritorio de kali dos archivos: user.txt y pass.txt. Dentro de dichos archivos debemos escribir el usuario y contraseña, que en este caso son `admin` y `sploit`.
+
+
+1.Al igual que en el ejemplo de eternalblue, lo que he hecho ha sido buscar la vulnerabilidad `glassfish` utilizando el comando `search glassfish`.
+
+![glassfish1](./images/glassfish1.png)
+
+2.Usamos el comando `use 1` para seleccionar esa vulnerabilidad.
+
+3.Ahora podemos usar los comandos `show options` u `options` para ver qué opciones son configurables en este exploit
+
+![glassfish2](./images/glassfish2.png)
+
+4.Pasamos a configurar el sploit
+
+![glassfish3](./images/glassfish3.png)
+
+y añadimos las rutas de el archivo de contraseña y usuario. Después usamos `run` para hacer funcionar el exploit.
+
+![glassfish4](./images/glassfish4.png)
+
+5. Ahora simplemente nos vamos al navegador y ponemos la dirección ip del windows en el que estamos usando el sploit y el puerto, y eso nos permitirá entrar en el glassfish del windows.
+
+![glassfish5](./images/glassfish5.png)
+
+
+
+
+
+
+
+
+
+
+
+
 <h2>LINUX</h2>
 
 Para la parte de *Linux* mostraremos en 1º lugar una vulnerabilidad por la red.
