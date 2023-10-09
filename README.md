@@ -33,6 +33,8 @@ Observamos que hay una vulnerabilidad conocida como "eternalblue."
 
 ![imagen4](./images/Screenshot_6.png)
 
+<h2>LINUX</h2>
+
 Para la parte de *Linux* mostraremos en 1º lugar una vulnerabilidad por la red.
 
 1. Si entramos en un navegador y buscamos la ip de la máquina victima podemos ver que de normal tiene un listado de directorios que revela información sobre el servicio de base de datos, la máquina y el puerto usado, además de dejar opción a poder descargar cualquier archivo del servidor sin logearte.
